@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+	border-style: border-box;
+}
+body{
+	background-color: white;
+}
+.nav{
+
+	padding:20px;
+	height: 30px;
+}
+.container{
+	display: flex;
+	margin-top: 10%;
+	width: 100%;
+}
+.picture{
+	width: 50%;
+}
+.scarecrow{
+	float: left;
+	margin-left: 80px;
+	width: 70vh;
+	height: 100%;
+}
+.notfound{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+.info{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 10vh;
+	width: 85%;
+	margin-bottom: 30px;
+}
+.second{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 3vh;
+	width: 35%;
+}
+#bttn{
+	margin-top: 50px;
+	width: 25%;
+	height: 50px;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	background-color: #404040;
+	border: none;
+}
+#bttn:hover{
+	color:#404040;
+	background-color: white;
+	border: 2px solid #404040;
+}
+.footer{
+	margin-top: 20px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+@media(min-width: 769px) and (max-width:990px ){
+	.picture{
+		width: 70%;
+	}
+	.scarecrow{
+	margin-left: 20px;
+	width: 50vh;
+	height: 60vh;
+	}
+	.info{
+	font-size: 6vh;
+	width: 85%;
+	margin-bottom: 30px;
+	}
+	.second{
+		font-size: 3vh;
+		width: 35%;
+	}
+}
+@media(min-width: 594px) and (max-width:768px ){
+	.picture{
+		width: 80%;
+	}
+	.scarecrow{
+	margin-left: 25px;
+	width: 60vh;
+	height: 70vh;
+	}
+	.info{
+	font-size: 6vh;
+	width: 85%;
+	margin-bottom: 30px;
+	}
+	.second{
+		font-size: 3vh;
+		width: 35%;
+	}
+}
+@media(min-width: 426px) and (max-width:593px ){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.scarecrow{
+	margin-left: 45px;
+	width: 60vh;
+	height: 70vh;
+	}
+	.info{
+	margin-left: 45px;
+	font-size: 6vh;
+	width: 85%;
+	margin-bottom: 30px;
+	}
+	.second{
+		margin-left: 45px;
+		font-size: 3vh;
+		width: 35%;
+	}
+	#bttn{
+	margin-left: 45px;
+	width: 50%;
+	}
+}
+
+@media(min-width: 320px) and (max-width:425px ){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.scarecrow{
+	margin-left: 25px;
+	width: 60vh;
+	height: 70vh;
+	}
+	.info{
+	margin-left: 40px;
+	font-size: 6vh;
+	width: 85%;
+	margin-bottom: 30px;
+	}
+	.second{
+		margin-left: 40px;
+		font-size: 3vh;
+		width: 35%;
+	}
+	#bttn{
+	margin: 30px 0px 0px 40px;
+	width: 50%;
+	}
+}
